@@ -13,7 +13,7 @@ print("Waa bah ff hein bon chance à l'autre..")
 input("\nContinuer ?")
 
 while(not _found):
-    os.system('cls') # clear console
+    os.system('cls') # clears console
 
     print(_hint)
 
