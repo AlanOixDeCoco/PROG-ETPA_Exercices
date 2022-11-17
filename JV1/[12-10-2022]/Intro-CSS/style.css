@@ -22,7 +22,7 @@ Courier, Courier New
    ================================================================== */
 
 body {
-    background-color: #472D2D;
+    background-color: #333;
     color: #EEE;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
@@ -105,6 +105,22 @@ header {
 
 #tile_alice {
     background: url("https://cdn.mcr.ea.com/3/images/8c917af9-9037-4e68-93a8-f8ad2e81932a/1588054829-0x0-0-0.jpg");
+    background-position: top;
+    background-size: cover;
+    background-color: #444;
+    background-blend-mode: multiply;
+}
+
+#tile_cubeWorld {
+    background: url("https://hitek.fr/img/up_o/624714019/hitek_80e27ae099e6c11eb30530c2c818f880_1568034017.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-color: #444;
+    background-blend-mode: multiply;
+}
+
+#tile_celeste {
+    background: url("https://s3.gaming-cdn.com/images/products/8003/screenshot/celeste-pc-mac-jeu-steam-wallpaper-3.jpg?v=1652434948");
     background-position: top;
     background-size: cover;
     background-color: #444;
