@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Code pendu -->
+    <div id="pendu">
+        <div id="wordHint">
+            <p class="letterHint">_</p>
+            <p class="letterHint">P</p>
+            <p class="letterHint">_</p>
+            <p class="letterHint">_</p>
+            <p class="letterHint">O</p>
+            <p class="letterHint">_</p>
+            <p class="letterHint">S</p>
+        </div>
+        <div id="errorsContainer">
+            <div id="drawing"></div>
+            <div id="wrongGuesses">
+                <p class="wrongLetterHint">A</p>
+                <p class="wrongLetterHint">B</p>
+                <p class="wrongLetterHint">C</p>
+                <p class="wrongLetterHint">D</p>
+                <p class="wrongLetterHint">_</p>
+                <p class="wrongLetterHint">_</p>
+                <p class="wrongLetterHint">_</p>
+                <p class="wrongLetterHint">_</p>
+                <p class="wrongLetterHint">_</p>
+            </div>
+        </div>
+        <div id="playerInput">
+            <input type="text" id="textInput">
+            <input type="button" id="submitButton">
+        </div>
+    </div>
+
+    <!-- Import du code javascript -->
+    <script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
