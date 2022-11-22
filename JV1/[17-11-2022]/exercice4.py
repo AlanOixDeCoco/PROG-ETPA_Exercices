@@ -1,5 +1,6 @@
 import random
 
+# générateur de tableau aléatoire
 def GenTableau(length):
     tableau = []
     for i in range(0, length):
@@ -15,7 +16,7 @@ for iterations in range(0, tableau.__len__()):
     indexPPValeur = iterations
     ppValeur = tableau[iterations]
     for index in range(iterations, tableau.__len__()):
-        if(tableau[index] < ppValeur):
+        if(tableau[index] < ppValeur): 
             ppValeur = tableau[index]
             indexPPValeur = index
 
